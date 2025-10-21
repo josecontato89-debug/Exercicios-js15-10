@@ -124,6 +124,46 @@
 //      }
 //  }
 //  console.log(`Entre os números 1 e 50 têm ${quantidadePar} são multiplos de 3`);
+
+/ //12. Calcule a soma dos números pares entre 1 e 100.
+// let soma = 0
+// for(let i = 0; i <=100; i++){
+//    if (i+=2){
+//        soma +=i
+//    }
+// }
+// console.log(`a soma dos num,eros pares de 1 a 100 é ${soma}`);
+
+
+//14. Imprima a tabuada de N de 1 a 10 num único string, com quebras de linha
+//  const n = 4
+// for (let i = 1 ; i <= 10 ; i ++){   
+//     if(n+i)  
+//     console.log(i)
+// }
+
+// //15
+// let qtd = 10;
+//  let seqFib = [];
+//  let a = 0;
+//  let b = 1;
+//  for(let i=0; i<=qtd; i++) {
+//      seqFib.push(a);
+//      let proxN = a + b;
+//      a = b;
+//      b = proxN;
+//  }
+//  console.log("Os primeiros termos são: ")
+//  console.log(seqFib.join("/"));
+
+// //16
+// const nomes = ['Marcos', 'José', 'Ygor', 'Cesar'];
+// nomes.push('Pedro');
+// nomes.unshift('Hendrius');
+// nomes.splice(2, 0, 'Karlos', 'Carlos');
+// // nomes.splice(3, 3);
+// for(let i = 0; i < nomes.length; i++) {
+//     console.log(i, '-', nomes[i]);}
  
 
  
